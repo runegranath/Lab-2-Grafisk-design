@@ -1,1 +1,5 @@
-Städat upp lite validatormeddelanden, t.ex. href ska inte ha en ändelse och använt CSS istället för html5 för procentuell angiven storlek
+* Städat upp lite validatormeddelanden, t.ex. href ska inte ha en ändelse och använt CSS istället för html5 för procentuell angiven storlek.
+* Ändrat bildstorlekar och ändelser
+* Laddar styles.css, headerbild och de största bilderna asynkront 
+* loading="lazy" för bilder som inte syns direkt i fönstret
+* lagt till beskrivning för SEO
