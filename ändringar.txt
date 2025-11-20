@@ -1,0 +1,1 @@
+Städat upp lite validatormeddelanden, t.ex. href ska inte ha en ändelse och använt CSS istället för html5 för procentuell angiven storlek
