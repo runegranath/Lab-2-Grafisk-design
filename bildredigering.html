@@ -3,19 +3,25 @@
 
 <head>
     <title>Lab 2</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preload" as="image" href="bilder/headerbakgrund.avif">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link rel="preload" href="styles.css" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="styles.css"></noscript>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="shortcut icon" href="favicon.ico">
-  <link rel="apple-touch-icon" sizes="16x16" href="apple-touch-icon">
-  <link rel="manifest" href="site.webmanifest">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" as="image" href="bilder/headerbakgrund.png">
+    <link rel="preload" as="image" href="bilder/bilserie008-2.avif">
+    <link rel="preload" as="image" href="bilder/bilserie008.avif">
+    <link rel="preload" as="image" href="bilder/bilserie011.jpg">
+    <link rel="preload" as="image" href="bilder/bilserie0112.avif">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="preload" href="styles.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="styles.css">
+    </noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="16x16" href="apple-touch-icon">
+    <link rel="manifest" href="site.webmanifest">
 </head>
 
 <body>
@@ -24,12 +30,13 @@
         <nav class="navbar navbar-default" id="navbar">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <button type="button" aria-label="Öppna hamburgermeny" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <button type="button" aria-label="Öppna hamburgermeny" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <object data="bilder/bild.svg" alt="" type="image/svg+xml"></object>
+                    <object data="bilder/bild.svg" type="image/svg+xml"></object>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
@@ -51,23 +58,54 @@
             <div class="col-sm-8 text-left" id="bildred">
 
                 <figure>
-                    <img src="bilder/bilserie008-2.avif" alt="modifierad dykare" class="img-responsive">
+                    <picture>
+                        <source srcset="bilder/bilserie008-2.avif" type="image/avif">
+                        <img src="bilder/bilserie008-2.png" alt="dykare som tittar på sin klocka"
+                            class="img-responsive">
+                    </picture>
                     <figcaption>Dykarens gula utrustning har ändrat färg till röd och bildens gröna färg har minskats
                     </figcaption>
                 </figure>
 
-                <figure><img src="bilder/bilserie008.avif" alt="Dykare original" class="img-responsive"></figure>
                 <figure>
-                    <img src="bilder/bilserie011.avif" alt="Stenpelare modifierad" class="img-responsive">
+                    <picture>
+                        <source srcset="bilder/bilserie008.avif" type="image/avif">
+                        <img src="bilder/bilserie008.jpg" alt="dykarbilden som grönaktig" class="img-responsive">
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source srcset="bilder/bilserie011.avif" type="image/avif">
+                        <img src="bilder/bilserie011.jpg" alt="Stenpelare mot en blå himmel" class="img-responsive">
+                    </picture>
                     <figcaption>Bilden har vänts upp-och-ner, rödheten i bilden har minskats och mannen som hoppar togs
                         bort
                     </figcaption>
                 </figure>
-                <figure><img src="bilder/bilserie0112.avif" alt="Stenpelare original" class="img-responsive"></figure>
-                <figure><img src="bilder/bilserie019-2.avif" loading="lazy" alt="solnedgång modifierad" class="img-responsive">
+                <figure>
+                    <picture>
+                        <source srcset="bilder/bilserie0112.avif" type="image/avif">
+
+                        <img src="bilder/bilserie011-Copy.jpg" alt="pelarbilden rödaktig och felvänd med en man i sig"
+                            class="img-responsive">
+                    </picture>
+                </figure>
+                <figure>
+                    <picture>
+                        <source srcset="bilder/bilserie019-2.avif" type="image/avif">
+                        <img src="bilder/bilserie019-2.png" loading="lazy" alt="solnedgång vid havet"
+                            class="img-responsive">
+                    </picture>
                     <figcaption>Horisonten har jämnats ut och den röda färgen minskats</figcaption>
                 </figure>
-                <figure><img src="bilder/bilserie019.avif" loading="lazy" alt="Solnedgång original" class="img-responsive"></figure>
+                <figure>
+                    <picture>
+                        <source srcset="bilder/bilserie019.avif" type="image/avif">
+
+                        <img src="bilder/bilserie019.jpg" loading="lazy"
+                            alt="soldnedgången som rödaktig och snedvriden horisont" class="img-responsive">
+                    </picture>
+                </figure>
 
             </div>
 

@@ -38,8 +38,8 @@ object {
   justify-content: center;
 }
 
-#bildrad article,
-#bildrad-original article {
+#bildrad figure,
+#bildrad-original figure {
   display: block;
   width: 100%;
   margin: 0 0 16px 0;
