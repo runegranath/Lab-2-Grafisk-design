@@ -3,3 +3,5 @@
 * Laddar styles.css, headerbild och de största bilderna asynkront 
 * loading="lazy" för bilder som inte syns direkt i fönstret
 * lagt till beskrivning för SEO
+* pictureelement 
+* defer på bootstraps script och placering nederst i body
