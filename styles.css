@@ -54,6 +54,7 @@ object {
   height: auto;
   object-fit: contain;
   box-sizing: border-box;
+  max-width: 650px;
 }
 
 footer {
@@ -86,6 +87,7 @@ footer {
   width: 100%;
   height: auto;
   display: block;
+  max-width: 450px;
 }
 
 @media screen and (max-width: 767px) {

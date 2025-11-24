@@ -1,7 +1,17 @@
-* Städat upp lite validatormeddelanden, t.ex. href ska inte ha en ändelse och använt CSS istället för html5 för procentuell angiven storlek.
+Förändringar:
+
+* Städat upp så den validerar
+
 * Ändrat bildstorlekar och ändelser
-* Laddar styles.css, headerbild och de största bilderna asynkront 
-* loading="lazy" för bilder som inte syns direkt i fönstret
-* lagt till beskrivning för SEO
-* pictureelement 
-* defer på bootstraps script och placering nederst i body
+
+* Laddar styles och headerbild asynkront
+ 
+* Loading="lazy" för bilder som inte syns direkt i fönstret
+
+* Lagt till beskrivning för SEO
+
+* Lagt till pictureelement 
+
+* Defer på bootstraps script och placering nederst i body
+
+* Möjliga ändringar: ta bort bootstrap(för prestanda), komprimera backup-bilder ytterligare
