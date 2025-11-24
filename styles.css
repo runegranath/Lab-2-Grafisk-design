@@ -2,9 +2,9 @@
   margin-bottom: 0;
   border-radius: 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("bilder/headerbakgrund.png");
+    url("bilder/headerbakgrund.avif");
   background-size: cover;
-  min-height: 350px;
+  min-height: 250px;
 }
 
 object {
