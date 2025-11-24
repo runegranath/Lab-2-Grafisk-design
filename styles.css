@@ -5,7 +5,10 @@
     url("bilder/headerbakgrund.avif");
   background-size: cover;
   min-height: 250px;
+  height: 250px;
+  background-color: #000;
 }
+ 
 
 object {
   width: 75%; height: 75%;
