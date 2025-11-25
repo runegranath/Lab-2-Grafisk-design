@@ -1,8 +1,10 @@
+i lab 2 grafisk teknik för webb
+
 Förändringar:
 
 * Städat upp så den validerar
 
-* Ändrat bildstorlekar och ändelser
+* Ändrat bildstorlekar och ändelser, websitespeedtest sa png eller jpg på många bilder för optimal prestanda men uppgiften säger avif/webp
 
 * Laddar styles och headerbild asynkront
  
